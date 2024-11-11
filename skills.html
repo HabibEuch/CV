@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Compétences</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .carousel-control-prev,
+        .carousel-control-next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: auto;
+            font-size: 2rem;
+            color: #000000;
+            background-color: #000000;
+            z-index: 2;
+        }
+        .carousel-control-prev {
+            left: -50px; 
+        }
+        .carousel-control-next {
+            right: -50px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Habib EL EUCH</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="CV.html">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills active">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about" class="container mt-5">
+        <h1 class="text-center">À propos de moi</h1>
+        <p class="text-center">Je suis un développeur passionné avec des compétences variées allant de la conception web à la modélisation 3D. Mon objectif est de créer des solutions innovantes et efficaces.</p>
+    </section>
+
+    <section id="skills" class="container mt-5">
+        <h1 class="text-center">Mes Compétences</h1>
+        <div class="mt-4">
+            <h3>Conception web (back & front end)</h3>
+            <p>Je maîtrise la création de sites web interactifs et responsives, en utilisant des technologies modernes pour le front end (HTML, CSS, JavaScript) et des solutions robustes pour le back end (PHP, Node.js, ou frameworks).</p>
+
+            <h3>C, C++, Arduino</h3>
+            <p>Expérimenté dans la programmation bas niveau, je réalise des projets intégrant des microcontrôleurs et des systèmes embarqués avec Arduino, et je crée des applications performantes en C et C++.</p>
+
+            <h3>Java</h3>
+            <p>Je développe des applications orientées objet en Java, notamment pour des solutions multiplateformes, des projets académiques, et des logiciels d'entreprise.</p>
+
+            <h3>Python</h3>
+            <p>Python est un de mes langages préférés pour l'analyse de données, l'automatisation de tâches et la création de scripts performants. Je l'utilise également pour le développement web et les projets d'intelligence artificielle.</p>
+
+            <h3>Excel & PowerBI</h3>
+            <p>Je suis compétent en analyse de données avec Excel, utilisant des formules avancées, des tableaux croisés dynamiques et des graphiques. Avec PowerBI, je crée des rapports interactifs pour une meilleure prise de décision.</p>
+
+            <h3>Modélisation 3D</h3>
+            <p>J'ai de l'expérience en conception 3D, réalisant des modèles pour des projets de prototypage et d'impression 3D, avec une attention aux détails et à la précision.</p>
+        </div>
+        
+        <h2 class="mt-5">Projets Vidéo</h2>
+        <div id="videoCarousel" class="carousel slide mt-3" data-bs-ride="carousel" data-bs-interval="10 mins">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <video class="w-100" controls>
+                        <source src="videos/Vidéo projet d'info.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la lecture de vidéos.
+                    </video>
+                </div>
+                <div class="carousel-item">
+                    <video class="w-100" controls>
+                        <source src="videos/Vidéo projet d'info.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la lecture de vidéos.
+                    </video>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#videoCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Précédent</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#videoCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Suivant</span>
+            </button>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
