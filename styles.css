@@ -1,0 +1,109 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #c7e2ff;
+}
+
+.navbar a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #787878;
+}
+
+/* Section principale */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4 {
+    font-weight:bolder;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Image de profil */
+img {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #007bff;
+}
+
+/* Liste de compétences */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #007bff;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Formulaire de contact */
+form .form-label {
+    font-weight: bold;
+}
+
+form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Animation de texte */
+.animated-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Vidéo intégrée */
+iframe {
+    border-radius: 10px;
+}
